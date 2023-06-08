@@ -5,6 +5,8 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in nokogiri-enumparse.gemspec
 gemspec
 
+gem "nokogiri", "~> 1.14.4"
+
 gem "rake", "~> 13.0"
 
 gem "rspec", "~> 3.0"
