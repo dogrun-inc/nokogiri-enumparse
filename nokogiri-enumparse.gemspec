@@ -6,19 +6,19 @@ Gem::Specification.new do |spec|
   spec.name = "nokogiri-enumparse"
   spec.version = Nokogiri::XML::Enumparse::VERSION
   spec.authors = ["constdrop"]
-  spec.email = ["iota_tz@yahoo.co.jp"]
+  spec.email = ["hirota@dogrun.jp"]
 
   spec.summary = "Lazy loading XML parser with Nokogiri."
   # spec.description = "TODO: Write a longer description or delete this line."
-  # spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/dogrun-inc/nokogiri-enumparse"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
-  # spec.metadata["homepage_uri"] = spec.homepage
-  # spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/dogrun-inc/nokogiri-enumparse"
+  spec.metadata["changelog_uri"] = "https://github.com/dogrun-inc/nokogiri-enumparse/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
